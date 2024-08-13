@@ -15,6 +15,8 @@ ghdl -e --workdir=build testbench
 ```
 
 ### Steps to run
+
+```shell
 ghdl -r --workdir=build testbench --vcd=alu.vcd
 gtkwave alu.vcd
 ```
